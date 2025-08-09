@@ -1,4 +1,4 @@
-## **Docker Commands**&#x20;
+## **Docker Commands**
 
 ---
 
@@ -30,7 +30,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Image Management {#image-management}
+## Image Management
 
 | Command                             | Description                          | Example                            |
 | ----------------------------------- | ------------------------------------ | ---------------------------------- |
@@ -46,7 +46,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Container Management {#container-management}
+## Container Management
 
 | Command                          | Description                                  | Example                                |
 | -------------------------------- | -------------------------------------------- | -------------------------------------- |
@@ -63,7 +63,7 @@ This document provides an overview of commonly used Docker commands along with e
 | `docker logs -f <id>`            | Follow container logs in real-time           | `docker logs -f abc123`                |
 | `docker inspect <id>`            | Detailed container info                      | `docker inspect abc123`                |
 | `docker commit <id> <new_image>` | Create new image from container changes      | `docker commit abc123 my_app:v2`       |
-| `docker attach <id>`             | Attach to container’s std streams            | `docker attach abc123`                 |
+| `docker attach <id>`             | Attach to container's std streams            | `docker attach abc123`                 |
 | `docker top <id>`                | List processes inside a container            | `docker top abc123`                    |
 | `docker pause <id>`              | Pause container processes                    | `docker pause abc123`                  |
 | `docker unpause <id>`            | Unpause container                            | `docker unpause abc123`                |
@@ -74,7 +74,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Network Management {#network-management}
+## Network Management
 
 | Command                         | Description                | Example                         |
 | ------------------------------- | -------------------------- | ------------------------------- |
@@ -85,7 +85,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Volume Management {#volume-management}
+## Volume Management
 
 | Command                        | Description         | Example                        |
 | ------------------------------ | ------------------- | ------------------------------ |
@@ -96,7 +96,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Docker Compose {#docker-compose}
+## Docker Compose
 
 | Command                           | Description                               | Example                           |
 | --------------------------------- | ----------------------------------------- | --------------------------------- |
@@ -114,7 +114,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## System Cleanup & Utilities {#system-cleanup--utilities}
+## System Cleanup & Utilities
 
 | Command                  | Description                                         | Example                  |
 | ------------------------ | --------------------------------------------------- | ------------------------ |
@@ -130,7 +130,7 @@ This document provides an overview of commonly used Docker commands along with e
 
 ---
 
-## Reference & Further Reading {#reference--further-reading}
+## Reference & Further Reading
 
 - Official Docker Documentation: [https://docs.docker.com/](https://docs.docker.com/)
 - Docker CLI Reference: [https://docs.docker.com/engine/reference/commandline/cli/](https://docs.docker.com/engine/reference/commandline/cli/)
@@ -140,4 +140,4 @@ This document provides an overview of commonly used Docker commands along with e
 
 *Prepared & compiled by Shubham Kapadnis*
 
-https\://www\.linkedin.com/in/shubham-kapadnis/
+https://www.linkedin.com/in/shubham-kapadnis/
